@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<meta name="description" content="">
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon">
+<title>Ui Academy</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+
+
+
+<body>
+
+    <!-- <header class="mobile-menu" id="menu">
+        <div class="container">
+            <div class="top-nav">
+                <img class="logo" id="logo" src="images/ui-path-logo.png" alt="logo">
+                <div class="menu-toggle"></div>
+
+                <nav class="menu-list">
+                    <ul class=" list-unstyled ">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="course.html">Courses</a></li>
+                        <li><a href="learningplans.html">Learning Plans</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="right-menu">
+                    <ul>
+                        <li><a href=""><img src="images/bell.png" alt="notification"></a></li>
+                        <li class="profile-button">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle " type="button" data-toggle="dropdown"><img
+                                        src="images/profile.png" alt="profile">
+                                    <span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><i class="fa fa-user"></i>Profile</a></li>
+                                    <li><a href="#"><i class="fa fa-cogs"></i>Setting</a></li>
+                                    <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+    <!-- ============================== page Banner ============================= -->
+    <section>
+        <div class="page-banner">
+            <div class="container">
+                <h1>Home</h1>
+            </div>
+        </div>
+    </section>
+    <!-- End of header -->
+    <!-- =============================== Card ================================ -->
+    <section class="container">
+        <div class="home">
+            <div class="content">
+                <div class="card border-0">
+                    <div class="col-sm-12 card-background card-background-first">
+                        <div class="row">
+                            <div class="col-lg-8 pad-30">
+                                <h2>RPA Starter Kit</h2>
+
+                                <div class="card-text border-left text-white">
+                                    <p>First time on UiPath Academy? You probably want to learn more about RPA and the buzz around it. Or about UiPath and what makes us special. Or see UiPath in action. In either case, we've got you covered. Access this section and start your learning journey with UiPath.</p>
+                                    <ul class="coures-time mt-16">
+                                        <li><span>4</span>Courses </li>
+                                        <li><span>10</span>Hours </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 card-right-img pad-15">
+								<video id = 'myVideo' onclick='pauseVid()' src="" poster="images/play.png" controls = true autoplay = true class="img-fluid"> </video>
+								<script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+								<script>var vid = document.getElementById('myVideo');var cdnurl ="https://videostream.cdn.contentraven.com/crdemo/uploads/jp_687/encryptedfile/17646/v1.0/a39edce4_30_1_2020_9_9_25.mp4?Expires=1581605009&Signature=e2SIel8Xw38PeZwpS8VOf5NepjyrEGim23ti9kDFNgwqt46WSDHF3V9Q7jj4wdB9oyvJ1oTHTtmhZ8t2bR8zuuVDsID8tbaVqn2DNMWfkjn~4NeNgJjtwERIAme845O2bYP3FPaD72ip0sso2gbZAxmjymvVUKGEn1HaaoPocoM_&Key-Pair-Id=APKAILVQOTZN4SHI6YSA";var alicloudurl ="https://videostream.cdn.contentraven.com/crdemo/uploads/jp_687/encryptedfile/17646/v1.0/a39edce4_30_1_2020_9_9_25.mp4?Expires=1581605009&Signature=e2SIel8Xw38PeZwpS8VOf5NepjyrEGim23ti9kDFNgwqt46WSDHF3V9Q7jj4wdB9oyvJ1oTHTtmhZ8t2bR8zuuVDsID8tbaVqn2DNMWfkjn~4NeNgJjtwERIAme845O2bYP3FPaD72ip0sso2gbZAxmjymvVUKGEn1HaaoPocoM_&Key-Pair-Id=APKAILVQOTZN4SHI6YSA";var s3url ="https://videostream.cdn.contentraven.com/crdemo/uploads/jp_687/encryptedfile/17646/v1.0/a39edce4_30_1_2020_9_9_25.mp4?Expires=1581605009&Signature=e2SIel8Xw38PeZwpS8VOf5NepjyrEGim23ti9kDFNgwqt46WSDHF3V9Q7jj4wdB9oyvJ1oTHTtmhZ8t2bR8zuuVDsID8tbaVqn2DNMWfkjn~4NeNgJjtwERIAme845O2bYP3FPaD72ip0sso2gbZAxmjymvVUKGEn1HaaoPocoM_&Key-Pair-Id=APKAILVQOTZN4SHI6YSA";function pauseVid(){$.ajax({type: 'GET',url:"https://demoapi.contentraven.com/checklocation",success: function(result) {var vid = document.getElementById('myVideo');if (result == 2){vid.src = alicloudurl;}else if (result == 3){vid.src = cdnurl;}else{vid.src = s3url;}}});}</script>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-12 pr-0 pl-0 start-right">
+                        <a href="" class="float-right start-btn font_14">Start Learning</a>
+                    </div>
+                </div>
+                <div class="card border-0 pt-4 mt-2">
+                    <div class="col-sm-12 card-background ">
+                        <div class="row">
+                            <div class="col-lg-8 pad-30">
+                                <h2>Product Training</h2>
+
+                                <div class="card-text border-left text-white">
+                                     <p>What UiPath offers only starts with RPA, but goes beyond. We offer the only hyperautomation enterprise platform and we also develop learning experiences to help you master what it brings. Enter here if you want to learn more about planning, building, managing, running, engaging and measuring automation.</p>
+                                    <ul class="coures-time mt-16">
+                                        <li><span>27</span>Courses </li>
+                                        <li><span>12</span>Hours </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 card-right-img pad-15">
+                               <video id = 'myVideo2' onclick='pauseVid2()' src="" poster="images/play.png" controls = true autoplay = true class="img-fluid"> </video>
+								<script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+								<script>var vid = document.getElementById('myVideo');var cdnurl ="https://videostream.cdn.contentraven.com/crdemo/uploads/jp_687/encryptedfile/17646/v1.0/a39edce4_30_1_2020_9_9_25.mp4?Expires=1581605009&Signature=e2SIel8Xw38PeZwpS8VOf5NepjyrEGim23ti9kDFNgwqt46WSDHF3V9Q7jj4wdB9oyvJ1oTHTtmhZ8t2bR8zuuVDsID8tbaVqn2DNMWfkjn~4NeNgJjtwERIAme845O2bYP3FPaD72ip0sso2gbZAxmjymvVUKGEn1HaaoPocoM_&Key-Pair-Id=APKAILVQOTZN4SHI6YSA";var alicloudurl ="https://videostream.cdn.contentraven.com/crdemo/uploads/jp_687/encryptedfile/17646/v1.0/a39edce4_30_1_2020_9_9_25.mp4?Expires=1581605009&Signature=e2SIel8Xw38PeZwpS8VOf5NepjyrEGim23ti9kDFNgwqt46WSDHF3V9Q7jj4wdB9oyvJ1oTHTtmhZ8t2bR8zuuVDsID8tbaVqn2DNMWfkjn~4NeNgJjtwERIAme845O2bYP3FPaD72ip0sso2gbZAxmjymvVUKGEn1HaaoPocoM_&Key-Pair-Id=APKAILVQOTZN4SHI6YSA";var s3url ="https://videostream.cdn.contentraven.com/crdemo/uploads/jp_687/encryptedfile/17646/v1.0/a39edce4_30_1_2020_9_9_25.mp4?Expires=1581605009&Signature=e2SIel8Xw38PeZwpS8VOf5NepjyrEGim23ti9kDFNgwqt46WSDHF3V9Q7jj4wdB9oyvJ1oTHTtmhZ8t2bR8zuuVDsID8tbaVqn2DNMWfkjn~4NeNgJjtwERIAme845O2bYP3FPaD72ip0sso2gbZAxmjymvVUKGEn1HaaoPocoM_&Key-Pair-Id=APKAILVQOTZN4SHI6YSA";function pauseVid2(){$.ajax({type: 'GET',url:"https://demoapi.contentraven.com/checklocation",success: function(result) {var vid = document.getElementById('myVideo2');if (result == 2){vid.src = alicloudurl;}else if (result == 3){vid.src = cdnurl;}else{vid.src = s3url;}}});}</script>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-12 pr-0 pl-0 start-right">
+                        <a href="" class="float-right start-btn font_14">Start Learning</a>
+                    </div>
+                </div>
+                <div class="card border-0 pt-4 mt-2">
+                    <div class="col-sm-12 card-background">
+                        <div class="row">
+                            <div class="col-lg-8 pad-30">
+                                <h2>What's new in the LTS version</h2>
+                                <div class="card-text border-left text-white">
+                                    <p>The UiPath 19.10 Long Term Release marks the evolution from an automation product to an end-to-end automation platform. To make sure you get the most of it, we've put together these courses. Go through the deep dive courses for an in-depth view of each solution and feature.</p>
+                                    <ul class="coures-time mt-16">
+                                        <li><span>8</span>Courses </li>
+                                        <li><span>6</span>Hours </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 card-right-img pad-15">
+                                <video id = 'myVideo4' onclick='pauseVid4()' src="" poster="images/play.png" controls = true autoplay = true class="img-fluid"> </video>
+								<script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+								<script>var vid = document.getElementById('myVideo');var cdnurl ="https://videostream.cdn.contentraven.com/crdemo/uploads/jp_687/encryptedfile/17646/v1.0/a39edce4_30_1_2020_9_9_25.mp4?Expires=1581605009&Signature=e2SIel8Xw38PeZwpS8VOf5NepjyrEGim23ti9kDFNgwqt46WSDHF3V9Q7jj4wdB9oyvJ1oTHTtmhZ8t2bR8zuuVDsID8tbaVqn2DNMWfkjn~4NeNgJjtwERIAme845O2bYP3FPaD72ip0sso2gbZAxmjymvVUKGEn1HaaoPocoM_&Key-Pair-Id=APKAILVQOTZN4SHI6YSA";var alicloudurl ="https://videostream.cdn.contentraven.com/crdemo/uploads/jp_687/encryptedfile/17646/v1.0/a39edce4_30_1_2020_9_9_25.mp4?Expires=1581605009&Signature=e2SIel8Xw38PeZwpS8VOf5NepjyrEGim23ti9kDFNgwqt46WSDHF3V9Q7jj4wdB9oyvJ1oTHTtmhZ8t2bR8zuuVDsID8tbaVqn2DNMWfkjn~4NeNgJjtwERIAme845O2bYP3FPaD72ip0sso2gbZAxmjymvVUKGEn1HaaoPocoM_&Key-Pair-Id=APKAILVQOTZN4SHI6YSA";var s3url ="https://videostream.cdn.contentraven.com/crdemo/uploads/jp_687/encryptedfile/17646/v1.0/a39edce4_30_1_2020_9_9_25.mp4?Expires=1581605009&Signature=e2SIel8Xw38PeZwpS8VOf5NepjyrEGim23ti9kDFNgwqt46WSDHF3V9Q7jj4wdB9oyvJ1oTHTtmhZ8t2bR8zuuVDsID8tbaVqn2DNMWfkjn~4NeNgJjtwERIAme845O2bYP3FPaD72ip0sso2gbZAxmjymvVUKGEn1HaaoPocoM_&Key-Pair-Id=APKAILVQOTZN4SHI6YSA";function pauseVid4(){$.ajax({type: 'GET',url:"https://demoapi.contentraven.com/checklocation",success: function(result) {var vid = document.getElementById('myVideo4');if (result == 2){vid.src = alicloudurl;}else if (result == 3){vid.src = cdnurl;}else{vid.src = s3url;}}});}</script>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-12 pr-0 pl-0 start-right">
+                        <a href="" class="float-right start-btn font_14">Start Learning</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of cards -->
+    <!-- =============================== Course Catalog ================================ -->
+    <section class="bg-gray">
+        <div class="container">
+            <div class="course-catalog-header">
+                <span class="red-line"></span>
+                <h2 class="text-dark">Browse our entire course catalog</h2>
+                <p class="col-lg-6">Get unlimited and unrestricted access to our entire course offering. Our wide variety of courses are waiting for you.</p>
+                <div class="col-lg-12 pr-0 pl-0 start-right">
+                    <a href="" class="start-btn font_14">Go to Courses</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Course Catalog -->
+    <!-- =============================== Course Catalog Tabs ================================ -->
+    <section>
+        <div class="container">
+            <div class="row pad-tb-60">
+                <div class="col-md-4 mb-3 tab-right">
+                    <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#developerFoundation"
+                                role="tab" aria-controls="home" aria-selected="true">RPA Developer Foundation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#developerAdvanced"
+                                role="tab" aria-controls="home" aria-selected="false">RPA Developer Advanced</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#developerContinousLearning"
+                                role="tab" aria-controls="home" aria-selected="false">RPA Developer Continous Learning</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#businessanalyst"
+                                role="tab" aria-controls="home" aria-selected="false">Business Analyst Foundation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#implementation" role="tab"
+                                aria-controls="profile" aria-selected="false">Implementation Manager Foundation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#infrastr" role="tab"
+                                aria-controls="contact" aria-selected="false">Infrastructure Engineer Foundation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#solutionarchit" role="tab"
+                                aria-controls="contact" aria-selected="false">Solution Architect Foundation</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <!-- /.col-md-4 -->
+                <div class="col-md-8">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="businessanalyst" role="tabpanel"
+                            aria-labelledby="home-tab">
+                            <div class="tab-text">
+                                <span class="red-line"></span>
+                                <h2 class="text-dark">Skill up for your job</h2>
+                                <p>Enroll in a Learning Plan designed specifically for the RPA career you want.</p>
+                                <p>You will get hands-on experience with more than 40 practical exercises to build your RPA portfolio.</p>
+                                <div class="col-lg-12 pr-0 pl-0 mt-30">
+                                    <a href="" class="start-btn">See Learning Plans</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Course Catalog tab -->
+    <!-- =============================== Resource Page ================================ -->
+    <section class="bg-gray">
+        <div class="container">
+            <div class="course-catalog-header">
+                <span class="red-line"></span>
+                <h2 class="text-dark">Check out our Resources Page</h2>
+                <p class="col-lg-6">We have an entire list of resources that supports your automation journey.</p>
+                <div class="start-right">
+                    <a href="" class="start-btn font_14">Go to Resources</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Course Catalog -->
+    <!-- =============================== Finting a Aswer ================================ -->
+    <section>
+        <div class="container fining-answer">
+            <div class="course-catalog-header">
+                <span class="red-line"></span>
+                <h2 class="text-dark">No luck finding answer?</h2>
+                <p>You can contact our Academy Team!</p>
+                <div class="start-right">
+                    <a href="contact.html" class="start-btn font_14">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Course Catalog -->
+    <!-- =============================== Footer ================================ -->
+    <footer class="margin-foot">
+        <div class="container">
+            <div class="top-arrow-button">
+                <a href="#menu" class="top-arrow text-white"><button><img src="images/up-arrow.png"
+                            alt="up-arrow"></button></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.menu-toggle').click(function () {
+                $('.menu-toggle,.menu-list,section,footer').toggleClass('active');
+            });
+        });
+
+
+
+
+    </script>
+</body>
+
+</html>
